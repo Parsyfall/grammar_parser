@@ -1,7 +1,8 @@
+#ifndef GRAMMAR_H
+#define GRAMMAR_H
 #include <string>
 #include <vector>
 #include <map>
-
 
 class Grammar {
     struct Node {
@@ -60,3 +61,4 @@ class Grammar {
     std::multimap<std::string, std::vector<Node>> listForm;
 };
 
+#endif
